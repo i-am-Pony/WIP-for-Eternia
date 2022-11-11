@@ -110,4 +110,4 @@ contract Eternia is ERC721Enumerable, Ownable {
             paytoken.transfer(msg.sender, paytoken.balanceOf(address(this)));
         }
         }
-        
+       
