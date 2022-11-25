@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
 // name your contract 
-contract Eternia is ERC721Enumerable, Ownable {
+contract Eternia is ERC721, ERC721Enumerable, Ownable {
 
 
 // then we will need to add this struct to let it now where to // find the token or
