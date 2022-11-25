@@ -33,7 +33,7 @@ contract Eternia is ERC721Enumerable, Ownable {
     }
 
     function _baseURI() internal view virtual override returns (string memory) {
-    return "ipfs/QmPXDC4p7AJRWB9xP7ZLy4NyySLot5782KQwtfT2yJRxKi/";
+    return "ipfs://QmPXDC4p7AJRWB9xP7ZLy4NyySLot5782KQwtfT2yJRxKi/";
     }
 
     function mint(address _to, uint32 _mintAmount, uint32 _pid) public payable {
